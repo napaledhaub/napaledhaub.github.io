@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/napaledhaub",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "buahdelapan@protonmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -88,8 +88,8 @@ const educationInfo = {
       duration: "September 2017 - April 2022",
       desc: "IPK 3.64",
       descBullets: [
-        "Majoring in database and mobile developing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Focused in database management and software developing",
+        "Graduated with an IPK of 3.64"
       ]
     }
   ]
@@ -130,25 +130,26 @@ const workExperiences = {
       company: "Asuransi Astra Buana",
       companylogo: require("./assets/images/aabLogo.jpg"),
       date: "May 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "In my current role as a Backend Developer, I focus on building scalable server-side applications using .NET Framework, similar to my internship. However, I now utilize the Scrum methodology to enhance team collaboration and streamline the development process. This experience has not only strengthened my technical skills but also improved my ability to work in an agile environment, delivering high-quality solutions in a timely manner."
     },
     {
       role: "ERP Developer",
       company: "Metrodata",
       companylogo: require("./assets/images/metrodataLogo.png"),
       date: "Feb 2022 – May 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "In my role as a Technical Consultant, I focused on developing solutions for Oracle ERP, specifically working with Oracle E-Business Suite (EBS). My responsibilities included customizing and optimizing modules to meet client requirements, integrating various systems, and providing technical support. This position allowed me to deepen my expertise in enterprise applications while collaborating closely with clients to ensure successful implementation and user satisfaction."
     },
     {
       role: "Full Stack Developer Intern",
       company: "AdIns",
       companylogo: require("./assets/images/adinsLogo.png"),
       date: "Feb 2021 – Feb 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "In my first role as an intern, I worked as a Full Stack Developer, utilizing ASP.NET with SQL Server and PostgreSQL. This experience allowed me to enhance my skills in both frontend and backend technologies while contributing to various projects like:",
+      descBullets: [
+        "API",
+        "Windows Service",
+        "Windows Reports"
+      ]
     }
   ]
 };
@@ -157,7 +158,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -323,8 +324,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+62-895-3096-0107",
+  email_address: "buahdelapan@protonmail.com"
 };
 
 // Twitter Section
