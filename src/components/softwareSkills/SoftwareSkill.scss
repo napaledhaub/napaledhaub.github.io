@@ -13,6 +13,7 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  transition: transform 0.3s;
 }
 
 .software-skill-inline > i {
@@ -28,4 +29,14 @@
 }
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
+}
+
+.software-skill-inline img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.software-skill-inline:hover img {
+  transform: scale(1.2);
 }

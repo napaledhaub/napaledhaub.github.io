@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nugroho Wibowo",
+  username: "Nugroho",
   title: "Hi there! I’m Nugroho (Nugi)",
   subTitle: emoji(
     "A backend developer with over 3 years of experience in creating efficient and scalable solutions. Explore my projects and expertise, and feel free to reach out if you’d like to collaborate or chat!"
@@ -34,8 +34,9 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/napaledhaub",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/nugroho-w-b9ba51211",
   gmail: "buahdelapan@protonmail.com",
+  whatsapp: "https://wa.me/6289530960107",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -65,12 +66,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "git",
-      fontAwesomeClassname: "https://cdn.simpleicons.org/git"
+      skillName: "Postgre SQL",
+      iconUrl: "https://cdn.simpleicons.org/PostgreSQL"
     },
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "Git",
+      iconUrl: "https://cdn.simpleicons.org/git"
+    },
+    {
+      skillName: ".Net",
+      iconUrl: "https://cdn.simpleicons.org/.Net"
+    },
+    {
+      skillName: "Docker",
+      iconUrl: "https://cdn.simpleicons.org/Docker"
+    },
+    {
+      skillName: "Golang",
+      iconUrl: "https://cdn.simpleicons.org/Go"
+    },
+    {
+      skillName: "Jira",
+      iconUrl: "https://cdn.simpleicons.org/Jira"
+    },
+    {
+      skillName: "Java Spring",
+      iconUrl: "https://cdn.simpleicons.org/Spring"
+    },
+    {
+      skillName: "MySQL",
+      iconUrl: "https://cdn.simpleicons.org/MySQL"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -199,9 +224,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements And Certifications"),
+  // subtitle:
+  //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     // {
@@ -322,8 +347,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  // subtitle:
+  //   "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+62-895-3096-0107",
   email_address: "buahdelapan@protonmail.com"
 };
@@ -335,7 +360,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
