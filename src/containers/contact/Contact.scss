@@ -33,9 +33,9 @@
   transition: all 0.3s;
 }
 
-.contact-subtitle {
-  text-transform: uppercase;
-}
+// .contact-subtitle {
+//   text-transform: uppercase;
+// }
 
 .contact-text-div {
   margin-top: 1.5rem;
@@ -68,7 +68,7 @@
   .contact-subtitle {
     font-size: 16px;
     line-height: normal;
-    text-align: center;
+    text-align: left;
   }
 
   .contact-text-div {

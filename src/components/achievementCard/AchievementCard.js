@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
+  const [isZoomed, setIsZoomed] = useState(false);
+  const imageRef = useRef(null);
+  
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL for ${name} not found`);
@@ -11,9 +14,30 @@ export default function AchievementCard({cardInfo, isDark}) {
     win.focus();
   }
 
+  const handleImageClick = () => {
+    setIsZoomed(true);
+  };
+
+  const handleOutsideClick = (event) => {
+    if (imageRef.current && !imageRef.current.contains(event.target)) {
+      setIsZoomed(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isZoomed) {
+      window.addEventListener('click', handleOutsideClick);
+    }
+    return () => {
+      window.removeEventListener('click', handleOutsideClick);
+    };
+  }, [isZoomed]);
+
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
-      <div className="certificate-image-div">
+      <div className="certificate-image-div"
+        ref={imageRef}
+        onClick={handleImageClick}>
         <img
           src={cardInfo.image}
           alt={cardInfo.imageAlt || "Card Thumbnail"}
@@ -43,6 +67,15 @@ export default function AchievementCard({cardInfo, isDark}) {
           );
         })}
       </div>
+      {isZoomed && (
+        <div className="overlay" onClick={() => setIsZoomed(false)}>
+          <img
+            src={cardInfo.image}
+            alt={cardInfo.imageAlt || "Zoomed Image"}
+            className="zoomed-image"
+          />
+        </div>
+      )}
     </div>
   );
 }

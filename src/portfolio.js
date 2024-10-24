@@ -110,8 +110,8 @@ const educationInfo = {
       schoolName: "Binus University",
       logo: require("./assets/images/binusLogo.png"),
       subHeader: "School of Computer Science",
-      duration: "September 2017 - April 2022",
-      desc: "IPK 3.64",
+      duration: "September 2018 - April 2022",
+      desc: "Completed coursework in mobile app development, gaining hands-on experience in designing and implementing web applications and farious appCompleted coursework in mobile app development and gained experience in web development, data analysis, and various roles within the field of computer science.",
       descBullets: [
         "Focused in database management and software developing",
         "Graduated with an IPK of 3.64"
@@ -183,7 +183,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -347,8 +347,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  // subtitle:
-  //   "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+     "If you’re looking for a passionate and dedicated professional to join your team or if you have a project in mind, I’d love to hear from you! Thank you for visiting my profile.",
   number: "+62-895-3096-0107",
   email_address: "buahdelapan@protonmail.com"
 };
