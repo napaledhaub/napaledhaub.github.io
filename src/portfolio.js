@@ -53,11 +53,11 @@ const skillsSection = {
   subTitle: " I specialize in building robust and scalable server-side applications. With over 3 years of experience in .NET",
   skills: [
     emoji(
-      "⚡ Excel at creating efficient APIs, services, and generating detailed reports"
+      "⚡ Excel at creating efficient APIs, services, SSIS, and generating detailed reports"
     ),
     emoji("⚡ Manage various databases, including SQL Server, PostgreSQL, etc"),
     emoji(
-      "⚡ Proficient in Golang and Spring Boot, which allows me to adapt to diverse project requirements and leverage the best tools for each task"
+      "⚡ Proficient in C#, Golang, and Spring Boot, which allows me to adapt to diverse project requirements and leverage the best tools for each task"
     )
   ],
 
@@ -267,6 +267,32 @@ const achievementSection = {
       title: "Best Team at Metrodata",
       subtitle: "Recognized for exceptional collaboration and outstanding performance during a high-impact project, showcasing my ability to work effectively within a team to deliver quality results.",
       image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Udemy Golang Backend Masterclass",
+      subtitle: "Successfully completed the Golang Backend MasterclassEarned the Udemy Golang Backend Masterclass certificate, gaining expertise in building scalable, high-performance backend applications using Go, covering topics like Docker, API, and concurrency handling.",
+      image: require("./assets/images/golangudemy.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Udemy Java Spring Boot Class",
+      subtitle: "Acquiring skills in building robust, scalable web applications with Spring Boot, RESTful APIs, and advanced backend development techniques from udemy.",
+      image: require("./assets/images/javaudemy.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
         // {name: "Certification", url: ""},
