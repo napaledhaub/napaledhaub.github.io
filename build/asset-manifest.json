@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b25907b.css",
-    "main.js": "/static/js/main.ff6369f4.js",
+    "main.js": "/static/js/main.fcade8de.js",
     "static/css/64.f9c91d5b.chunk.css": "/static/css/64.f9c91d5b.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.fb6c52be937ab1107b3b.webp",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/resume.pdf": "/static/media/resume.8b325146a78c3b56a810.pdf",
+    "static/media/resume.pdf": "/static/media/resume.4d4fc149a99d86f25eb5.pdf",
     "static/media/golangudemy.webp": "/static/media/golangudemy.2e6914341842451c8cbc.webp",
     "static/media/javaudemy.webp": "/static/media/javaudemy.1be05b1b09c0793e4d86.webp",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -23,7 +23,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4b25907b.css.map": "/static/css/main.4b25907b.css.map",
-    "main.ff6369f4.js.map": "/static/js/main.ff6369f4.js.map",
+    "main.fcade8de.js.map": "/static/js/main.fcade8de.js.map",
     "64.f9c91d5b.chunk.css.map": "/static/css/64.f9c91d5b.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.4b25907b.css",
-    "static/js/main.ff6369f4.js"
+    "static/js/main.fcade8de.js"
   ]
 }
