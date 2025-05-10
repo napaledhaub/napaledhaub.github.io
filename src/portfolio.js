@@ -113,8 +113,8 @@ const educationInfo = {
       duration: "September 2018 - April 2022",
       desc: "Completed coursework in mobile app development, gaining hands-on experience in designing and implementing web applications and farious appCompleted coursework in mobile app development and gained experience in web development, data analysis, and various roles within the field of computer science.",
       descBullets: [
-        "Focused in database management and software developing",
-        "Graduated with an IPK of 3.64"
+        "Focused in database management and software development",
+        "Graduated with an IPK of 3.61"
       ]
     }
   ]
@@ -151,18 +151,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer",
+      company: "Bank Indonesia",
+      companylogo: require("./assets/images/biLogo.png"),
+      date: "April 2025 – Present",
+      desc: "As a Software Developer at Bank Indonesia, I design and implement RESTful APIs with .NET Core, optimize SQL Server database performance, and enhance code quality through CI/CD and automated testing. This role has strengthened my software architecture knowledge and commitment to delivering reliable solutions in an Agile environment."
+    },
+    {
       role: "Backend Developer",
       company: "Asuransi Astra Buana",
       companylogo: require("./assets/images/aabLogo.jpg"),
-      date: "May 2023 – Present",
-      desc: "In my current role as a Backend Developer, I focus on building scalable server-side applications using .NET Framework, similar to my internship. However, I now utilize the Scrum methodology to enhance team collaboration and streamline the development process. This experience has not only strengthened my technical skills but also improved my ability to work in an agile environment, delivering high-quality solutions in a timely manner."
+      date: "May 2023 – April 2025",
+      desc: "At Asuransi Astra, I developed and maintained backend applications using .NET, ensuring high performance and reliability. I collaborated with cross-functional teams to meet project goals and actively participated in Agile/Scrum processes, improving my teamwork and communication skills."
     },
     {
       role: "ERP Developer",
       company: "Metrodata",
       companylogo: require("./assets/images/metrodataLogo.png"),
       date: "Feb 2022 – May 2023",
-      desc: "In my role as a Technical Consultant, I focused on developing solutions for Oracle ERP, specifically working with Oracle E-Business Suite (EBS). My responsibilities included customizing and optimizing modules to meet client requirements, integrating various systems, and providing technical support. This position allowed me to deepen my expertise in enterprise applications while collaborating closely with clients to ensure successful implementation and user satisfaction."
+      desc: "As a Technical Consultant, I developed solutions for Oracle ERP, focusing on customizing and optimizing Oracle E-Business Suite modules. I integrated systems and provided technical support, enhancing my expertise in enterprise applications while ensuring client satisfaction."
     },
     {
       role: "Full Stack Developer Intern",
