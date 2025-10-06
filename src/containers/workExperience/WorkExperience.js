@@ -14,7 +14,7 @@ export default function WorkExperience() {
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Experiences</h1>
-              <div className="experience-cards-div">
+              {/* <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
                     <ExperienceCard
@@ -31,6 +31,22 @@ export default function WorkExperience() {
                     />
                   );
                 })}
+              </div> */}
+              <div className="experience-cards-div">
+                {[...workExperiences.experience, ...workExperiences.experience].map((card, i) => (
+                  <ExperienceCard
+                    key={i}
+                    isDark={isDark}
+                    cardInfo={{
+                      company: card.company,
+                      desc: card.desc,
+                      date: card.date,
+                      companylogo: card.companylogo,
+                      role: card.role,
+                      descBullets: card.descBullets
+                    }}
+                  />
+                ))}
               </div>
             </div>
           </div>
